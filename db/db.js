@@ -13,11 +13,16 @@ module.exports.tips = [
         id: 3,
         title: "Quick Open",
         description: "Quickly open files. Keyboard Shortcut: ⌘P"
+    },
+    {
+        id: 4,
+        title: "Command line",
+        description: "To open code with current directory type: 'code .'"
+    },
+    {
+        id: 5,
+        title: "Errors and warnings",
+        description: "Keyboard Shortcut: ⇧⌘M (Cycle through errors with F8 or ⇧F8)"
     }
 ];
 
-
-// Quick Open#
-// Quickly open files.
-
-// Keyboard Shortcut: ⌘P
