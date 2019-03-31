@@ -1,13 +1,19 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import axios from "axios";
+import SearchAPI from "./components/SearchAPI";
+import { validate } from "@babel/types";
 
 class App extends Component {
+  // constructor() {
+  //   super();
+  // }
+
   render() {
     return (
       <div className="App">
         <h1>VSCode Hacks API</h1>
-        <div> <p>Testing</p></div>
+        <SearchAPI />
       </div>
     );
   }
